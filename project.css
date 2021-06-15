@@ -1,0 +1,63 @@
+.desc{
+    text-align: left;
+}
+.pro{
+    background-color: rgb(255, 246, 246);
+}
+
+.carousel-control-prev{
+    position: relative;
+    right: 0;
+    left: 0;
+}
+.card{
+    size: fixed;
+}
+.carousel-inner{
+    padding: 3% 13%;
+
+}
+.navbar,.home{
+    color: #40514E;
+    font-size: 1.4rem;
+           
+}
+.matter{
+    background-color: #213835;
+}
+
+#pro-detail{
+    padding: auto;
+   text-align: center;
+    background-color: rgba(254, 254, 244, 0.47);
+    color: rgb(0, 0, 0);
+}
+
+.lst{
+    text-align: left;
+    padding: 1px 0 0 50px;
+}
+
+.content {
+    position: relative;
+    right:0;
+}
+
+.btm{
+    margin: 0 auto 0 auto;
+    text-align: center;
+    background-color:#EAF6F6; 
+    line-height: 2; 
+    padding: 5px 0 0.3px;
+}
+.touch_btm{
+    font-size: 120%;
+    margin-bottom: 0;
+}
+.footer-link{
+    
+    color: #11999E;
+    position: relative;
+    top: 10px;
+    padding: 10px;
+}
