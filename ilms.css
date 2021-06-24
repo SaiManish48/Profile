@@ -1,8 +1,13 @@
 .card{
     position: relative;
     margin: 15px 62px;
+    overflow: hidden;
 
 }
+.card:hover{
+    opacity: 1;
+}
+
 h2{
     color: #06969e;
     font-family: 'Merienda One', cursive;
@@ -10,6 +15,7 @@ h2{
     z-index: 50;
     opacity: 0;
     transition: 0.7s;
+    width:60%;
 }
 h4{
     color: #06969e;
@@ -33,10 +39,102 @@ p{
 }
 .card:hover h2{
     opacity: 5;
-    transform: translate(200px);
+    transform: translate(180px);
+
 }
 .card-body:hover p, .card-body:hover h4{
     opacity: 1;
+}
+.card span{
+    transition: 0.5;
+    opacity: 0;
+}
+.card:hover span{
+    opacity: 1;
+}
+.card span:nth-child(1)
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #1779ff);
+    animation: animate1 2s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes animate1 {
+    0%
+    {
+        transform: translateX(-100%);
+    } 
+    100%
+    {
+        transform: translateX(100%);
+    }    
+}
+.card span:nth-child(2)
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, #1779ff);
+    animation: animate2 2s linear infinite;
+}
+@keyframes animate2 {
+    0%
+    {
+        transform: translateY(-100%);
+    } 
+    100%
+    {
+        transform: translateY(100%);
+    }    
+}
+.card span:nth-child(3)
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to left, transparent, #1779ff);
+    animation: animate3 2s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes animate3 {
+    0%
+    {
+        transform: translateX(100%);
+    } 
+    100%
+    {
+        transform: translateX(-100%);
+    }    
+}
+
+.card span:nth-child(4)
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to top, transparent, #1779ff);
+    animation: animate4 2s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes animate4 {
+    0%
+    {
+        transform: translateY(100%);
+    } 
+    100%
+    {
+        transform: translateY(-100%);
+    }    
 }
 
 .row{
