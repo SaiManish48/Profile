@@ -7,11 +7,17 @@ h2{
     color: #06969e;
     font-family: 'Merienda One', cursive;
     font-size: 2rem;
+    z-index: 50;
+    opacity: 0;
+    transition: 0.7s;
 }
 h4{
     color: #06969e;
     font-family: 'Merienda One', cursive;
     font-size: 2rem;
+    opacity: 0.5;
+    z-index: 2;
+    transition: 0.5s;
 }
 .heading{
     color: #06969e;
@@ -21,6 +27,16 @@ h4{
 p{
     color: #40514E;
     font-size: 1.2rem;
+    opacity: 0.5;
+    z-index: 2;
+    transition: 0.5s;
+}
+.card:hover h2{
+    opacity: 5;
+    transform: translate(200px);
+}
+.card-body:hover p, .card-body:hover h4{
+    opacity: 1;
 }
 
 .row{
