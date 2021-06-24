@@ -1,7 +1,26 @@
 .card{
-        
-       
-        margin:60px;
+    position: relative;
+    margin: 15px 62px;
+
+}
+h2{
+    color: #06969e;
+    font-family: 'Merienda One', cursive;
+    font-size: 2rem;
+}
+h4{
+    color: #06969e;
+    font-family: 'Merienda One', cursive;
+    font-size: 2rem;
+}
+.heading{
+    color: #06969e;
+    font-family: 'Merienda One', cursive;
+    font-size: 1.5rem;
+}
+p{
+    color: #40514E;
+    font-size: 1.2rem;
 }
 
 .row{

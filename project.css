@@ -10,11 +10,38 @@
     right: 0;
     left: 0;
 }
+h1{
+    color: #06969e;
+    font-family: 'Merienda One', cursive;
+    font-size: 2.5rem;
+}
+h2{
+    color: #06969e;
+    font-family: 'Merienda One', cursive;
+    font-size: 2rem;
+}
+p{
+    color: #40514E;
+    font-size: 1.3rem;
+}
+ul{
+    color: #40514E;
+    font-size: 1.3rem; 
+}
+li{
+    color: #40514E;
+    font-size: 1.3rem; 
+}
+.ilms{
+    color: #06969e;
+    font-family: 'Merienda One', cursive;
+    font-size: 2rem;
+}
 .card{
     size: fixed;
 }
 .carousel-inner{
-    padding: 3% 13%;
+    padding: 3% 10%;
 
 }
 .navbar,.home{
@@ -28,7 +55,7 @@
 
 #pro-detail{
     padding: auto;
-   text-align: center;
+    text-align: center;
     background-color: rgba(254, 254, 244, 0.47);
     color: rgb(0, 0, 0);
 }
